@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cờ ca rô</title>
+</head>
+<body>
+<h2>Cờ ca rô</h2>
+<p id="carogame"></p>
+<input type="button" value="Thay đổi giá trị" onclick="thayDoi()">
+<script>
+let b=document.getElementById("carogame");
+let mang=[];
+let duLieu="";
+for (let i = 0; i < 5; i++) {
+  mang[i]=new Array(0,0,0,0,0);
+}
+for (let i = 0; i < 5; i++) {
+duLieu+="<br/>";
+  for (let j = 0; j < 5; j++) {
+duLieu+=mang[i][j]+"&nbsp;&nbsp;";
+  }
+}
+duLieu+="<br/><<br/><input type='button' value="Thay đổi giá trị"
+</script>
+</body>
+</html>
